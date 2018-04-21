@@ -2,3 +2,4 @@ language: c
 compiler: gcc
 install: make dep
 sudo: required
+script: make && make test
